@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { fetchMoviesByActor, fetchActorMoviesByName } from '../utils/api'; // Assuming these functions exist
+import { fetchMoviesByActor, fetchActorMoviesByName } from '../Utils/api'; // Assuming these functions exist
 
 const ActorPage = () => {
   const [actorMovies, setActorMovies] = useState([]);

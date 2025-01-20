@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { searchMovies } from '../utils/api';
+import { searchMovies } from '../Utils/api';
 
 const SearchBar = ({ setMovies }) => {
   const [query, setQuery] = useState('');
