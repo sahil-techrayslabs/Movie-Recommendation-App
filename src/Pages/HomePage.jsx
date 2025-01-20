@@ -33,7 +33,7 @@
 
 // export default HomePage;
 import React, { useState, useEffect } from 'react';
-import { searchMoviesByCategory } from '../utils/api';
+import { searchMoviesByCategory } from '../Utils/api';
 import SearchBar from '../Components/SearchBar';
 import MovieGrid from '../Components/MovieGrid';
 
